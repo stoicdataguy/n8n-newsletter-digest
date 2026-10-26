@@ -1,0 +1,4 @@
+# Automatic HTTPS via Let's Encrypt. Point an A record for N8N_HOST at this server first.
+{$N8N_HOST} {
+	reverse_proxy n8n:5678
+}
